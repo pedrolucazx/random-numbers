@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './lotto.css'
+import '../Styles/responsive.css'
 
 export function Lotto() {
   const [number, setNumber] = useState([])

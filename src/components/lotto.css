@@ -36,8 +36,7 @@ li p {
   gap: 2rem;
 }
 button {
-  height: 35px;
-  padding: 10px;
+  padding: 1rem;
   background: linear-gradient(100deg, #ff5c6a 0%, #ffcd1e 100%);
   color: #fff;
   border: none;

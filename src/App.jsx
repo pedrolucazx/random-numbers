@@ -1,6 +1,6 @@
 //   return Math.floor(Math.random() * (60 - 1 + 1)) + 1;
 import { Lotto } from './components/Lotto'
-import './app.css'
+import '../src/Styles/app.css'
 
 export function App() {  
   return (
