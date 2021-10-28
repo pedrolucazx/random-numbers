@@ -5,11 +5,12 @@ import '../Styles/responsive.css'
 export function Lotto() {
   const [number, setNumber] = useState([])
 
-  const pushNumbers = counter => {
-    let emptyArr = [];
+  function pushNumbers(counter){
+    const emptyArr = [];
 
-    let randomGenerator = num => {
+    function randomGenerator (num){
       return parseInt(Math.random() * num + 1);
+
     };
 
     while (counter) {
