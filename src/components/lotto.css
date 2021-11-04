@@ -21,7 +21,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: radial-gradient(circle at 20px 20px, #ff5c6ad3, #000);
+  background: radial-gradient(circle at 20px 20px, #ff5c6ad3, #ffcd1e 100%);
   justify-content: space-evenly;
   border-radius: 100%;
 }
@@ -35,11 +35,15 @@ li p {
   justify-content: space-between;
   gap: 2rem;
 }
+
 button {
   padding: 1rem;
-  background: linear-gradient(100deg, #ff5c6a 0%, #ffcd1e 100%);
+  background: linear-gradient(100deg, #ff5c6ad3, #ffcd1e 100%);
   color: #fff;
   border: none;
   font-weight: bold;
   border-radius: 0.3rem;
 }
+
+
+

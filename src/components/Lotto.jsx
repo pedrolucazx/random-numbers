@@ -10,7 +10,6 @@ export function Lotto() {
 
     function randomGenerator (num){
       return parseInt(Math.random() * num + 1);
-
     };
 
     while (counter) {
@@ -53,6 +52,7 @@ export function Lotto() {
       <div className="button-container">
         <button className="reset" onClick={reset}>Resetar</button>
         <button className="generate" onClick={handleClick}>Mostre os números da sorte</button>
+        <a href="https://github.com/pedrolucazx/random-numbers" target="blank"><button>GitHub</button></a>
       </div>
     </div>
   );
